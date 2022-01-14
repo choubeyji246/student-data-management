@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    list-style-type: none;
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+    color: antiquewhite;
+  }
+  nav ul li {
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+  }
+  .logo img {
+    width: 50px;
+    padding: 10px 23px;
+  }
+  
+  nav ul li:hover {
+    border-style: 2px solid black;
+    /* background-color: #d8321f; */
+    padding: 5px;
+    background-color:#1d3b5c;
+  }
+  
+  body {
+    /* background: linear-gradient(rgb(7, 176, 243),rgb(207, 202, 202),rgb(0, 172, 240)); */
+   /* background-image: url(2519198.jpg); */
+   /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* background-color: #2874A6 ; */
+    /* background: linear-gradient(orange,black,orange); */
+    background-color: rgb(177,176,176);
+    /* background-color:#2d3f53; */
+   
+  
+  }
+  .side {
+    display: flex;
+  }
+  header {
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    height: 10vh;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 80vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  
+  }
+  .right {
+    font-size: 20px;
+    border-radius: 10px;
+    /* border-width: 5px;
+    border-style: solid; */
+    position: relative;
+    padding: 50px;
+    margin: 50px;
+    background-color:#6b7f91;
+  }
+  .left {
+    font-size: 20px;
+    border-radius: 10px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: #102842 ; */
+    padding: 50px;
+    margin: 50px;
+    /* background-color: chartreuse; */
+    backdrop-filter: blur(5px);
+    background-color:#6b7f91;
+  }
+  /* form{
+        padding:  0px 10px;
+    }  */
+  .right h1 {
+    color: white;
+  }
+  .left h1 {
+    color: white;
+  }
+  nav ul li a {
+    /* color: orange; */
+    color: orange;
+    text-decoration: none;
+  
+  }
+  input[type=text],input[type=password]{
+      padding: 20px;
+      border: none;
+      border: 2px  solid rgb(8, 51, 68);
+  }
+  
+  .button{
+      background-color: rgb(8, 51, 68);
+      color: white;
+      border: 3px solid rgb(6, 37, 49); 
+      padding: 5px 15px;
+     
+         }
+  .bt1{
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      margin: 10px 50px;
+     
+       }
+  .bt2{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 10px 50px
+       }
+  .button:hover{
+      background-color: white;
+      font-weight: 500;
+      font-size: 18px ;
+      
+      color: rgb(8, 51, 68) ;
+    
+  }
+  button:hover{
+    border: 2px solid green;
+    height: 30px;
+    width: 50px;
+  }
